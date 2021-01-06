@@ -1,0 +1,6 @@
+read=input()
+data=list(map(int, input().split()))
+number1=max(data)
+data.remove(number1)
+number2=max(data)
+print(number1*number2)
